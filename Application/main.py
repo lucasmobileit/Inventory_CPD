@@ -207,7 +207,7 @@ def ver_imagem():
 # Trabalhando no frame_cima--------------------------------------------------------------------------------------------------------------------------
 
 # Abrindo imagem
-app_img = Image.open('inventorio.png')
+app_img = Image.open('Images/inventorio.png')
 app_img = app_img.resize((42, 42))
 app_img = ImageTk.PhotoImage(app_img)
 
@@ -265,7 +265,7 @@ b_carregar = Button(frame_meio, command=escolher_imagem, width=29, text="Carrega
 b_carregar.place(x=130, y=221)
 
 # Botão inserir:
-img_add = Image.open('add.png')
+img_add = Image.open('Images/add.png')
 img_add = img_add.resize((20, 20))
 img_add = ImageTk.PhotoImage(img_add)
 
@@ -274,7 +274,7 @@ b_inserir = Button(frame_meio, image=img_add, command=inserir, width=95, text=" 
 b_inserir.place(x=330, y=10)
 
 # Botão atualizar:
-img_update = Image.open('refresh.png')
+img_update = Image.open('Images/refresh.png')
 img_update = img_update.resize((20, 20))
 img_update = ImageTk.PhotoImage(img_update)
 
@@ -283,7 +283,7 @@ b_update = Button(frame_meio, command=atualizar, image=img_update, width=95, tex
 b_update.place(x=330, y=50)
 
 # Botão deletar:
-img_delete = Image.open('delete.png')
+img_delete = Image.open('Images/delete.png')
 img_delete = img_delete.resize((20, 20))
 img_delete = ImageTk.PhotoImage(img_delete)
 
@@ -292,7 +292,7 @@ b_delete = Button(frame_meio, command=deletar, image=img_delete, width=95, text=
 b_delete.place(x=330, y=90)
 
 # Botão Ver Item:
-img_item = Image.open('item.png')
+img_item = Image.open('Images/item.png')
 img_item = img_item.resize((20, 20))
 img_item = ImageTk.PhotoImage(img_item)
 
