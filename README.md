@@ -1,7 +1,7 @@
-# Inventory_CPD
-Projeto para facilitar o controle do nosso estoque de TI
+# Inventário simples
+Projeto pessoal com objetivo de aplicar no dia a dia.
 
-- Projeto idealizado por "Usando Python" e modificado por mim para atender necessidades da empresa em que trabalho.
+- Projeto idealizado por "Usando Python" e modificado por mim para atender necessidades do dia a dia.
 - [PROJETO PESSOAL]
 
 
